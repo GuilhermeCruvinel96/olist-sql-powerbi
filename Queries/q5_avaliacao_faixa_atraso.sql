@@ -1,5 +1,3 @@
-use olist
-
 SELECT
     CASE
         WHEN DATEDIFF(day, order_estimated_delivery_date, order_delivered_customer_date) BETWEEN 1 AND 3 THEN '1-3 dias'
@@ -7,6 +5,7 @@ SELECT
         WHEN DATEDIFF(day, order_estimated_delivery_date, order_delivered_customer_date) BETWEEN 8 AND 14 THEN '8-14 dias'
         WHEN DATEDIFF(day, order_estimated_delivery_date, order_delivered_customer_date) > 14 THEN '14+'
         END AS 'Dias de Atraso'
+        ,COUNT(*) AS 'Total_Pedidos'
         ,CAST(ROUND(AVG(CAST(review_score AS DECIMAL(3,2))), 2) AS DECIMAL(4,2)) AS 'Média Avaliação'
 FROM olist_orders_dataset AS O
 INNER JOIN olist_order_reviews_dataset AS R ON R.order_id = O.order_id
