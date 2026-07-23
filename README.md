@@ -83,17 +83,17 @@ Por fim, o tamanho do atraso importa, mas não de forma proporcional. A nota cai
 O artigo segue o formato pergunta por pergunta: pergunta em destaque, consulta SQL, visual e interpretação.
 
 - **Pergunta 1** — Percentual de pedidos entregues com atraso
-  (assets/q1.png)
+  ![](assets/q1.png)
 - **Pergunta 2** — Nota média: atrasado vs. no prazo
-  (assets/q2.png)
+  ![](assets/q2.png)
 - **Pergunta 3** — Percentual de atraso por estado
-  (assets/q3.png)
+  ![](assets/q3.png)
 - **Pergunta 3.5** — Percentual de atraso por região
-  (assets/q3_5.png)
+  ![](assets/q3_5.png)
 - **Pergunta 4** — Categoria, volume, atraso e nota
-  (assets/q4.png)
+  ![](assets/q4.png)
 - **Pergunta 5** — Faixas de dias de atraso × nota
-  (assets/q5.png)
+  ![](assets/q5.png)
 
 O Power BI foi utilizado como gerador de visuais estáticos para o artigo, não como dashboard interativo publicado.
 
