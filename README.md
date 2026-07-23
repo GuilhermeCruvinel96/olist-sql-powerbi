@@ -29,7 +29,8 @@ A Olist disponibiliza 9 tabelas relacionadas entre si. Deste conjunto, cinco for
 - Categorias com poucos pedidos distorciam a média de avaliação e geravam ruído estatístico no ranking (uma categoria tinha apenas 2 pedidos). Resolvido com `HAVING COUNT(*) >= 50`, corte justificado pela observação da distribuição real de volume por categoria
 
 Trabalhar com dado real, e portanto sujo, foi tratado como parte do processo analítico, não como obstáculo a esconder. As decisões de tratamento estão documentadas ao longo deste README e no artigo publicado.
-(assets/modelo_dados.png)
+
+![](assets/modelo_dados.png)
 
 ---
 
@@ -83,17 +84,28 @@ Por fim, o tamanho do atraso importa, mas não de forma proporcional. A nota cai
 O artigo segue o formato pergunta por pergunta: pergunta em destaque, consulta SQL, visual e interpretação.
 
 - **Pergunta 1** — Percentual de pedidos entregues com atraso
-  (assets/q1.png)
+
+  ![](assets/q1.png)
+  
 - **Pergunta 2** — Nota média: atrasado vs. no prazo
-  (assets/q2.png)
+  
+  ![](assets/q2.png)
+  
 - **Pergunta 3** — Percentual de atraso por estado
-  (assets/q3.png)
+  
+  ![](assets/q3.png)
+  
 - **Pergunta 3.5** — Percentual de atraso por região
-  (assets/q3_5.png)
+  
+  ![](assets/q3_5.png)
+  
 - **Pergunta 4** — Categoria, volume, atraso e nota
-  (assets/q4.png)
+  
+  ![](assets/q4.png)
+  
 - **Pergunta 5** — Faixas de dias de atraso × nota
-  (assets/q5.png)
+  
+  ![](assets/q5.png)
 
 O Power BI foi utilizado como gerador de visuais estáticos para o artigo, não como dashboard interativo publicado.
 
@@ -107,7 +119,7 @@ SQL Server (SSMS), Power BI, Ideogram e PIL (edição da imagem de capa)
 
 ## Links
 
-📄 [Artigo completo no LinkedIn:] (https://www.linkedin.com/pulse/o-que-os-dados-da-olist-revelam-sobre-atraso-na-entrega-cruvinel-40w5f/)
+📄 [Artigo completo no LinkedIn](https://www.linkedin.com/pulse/o-que-os-dados-da-olist-revelam-sobre-atraso-na-entrega-cruvinel-40w5f/)
 
 ---
 
