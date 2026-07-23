@@ -29,7 +29,7 @@ A Olist disponibiliza 9 tabelas relacionadas entre si. Deste conjunto, cinco for
 - Categorias com poucos pedidos distorciam a média de avaliação e geravam ruído estatístico no ranking (uma categoria tinha apenas 2 pedidos). Resolvido com `HAVING COUNT(*) >= 50`, corte justificado pela observação da distribuição real de volume por categoria
 
 Trabalhar com dado real, e portanto sujo, foi tratado como parte do processo analítico, não como obstáculo a esconder. As decisões de tratamento estão documentadas ao longo deste README e no artigo publicado.
-(assets/modelo_dados.png)
+![](assets/modelo_dados.png)
 
 ---
 
